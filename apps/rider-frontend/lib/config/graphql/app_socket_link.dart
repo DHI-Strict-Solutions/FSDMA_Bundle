@@ -1,6 +1,6 @@
+import 'package:rider_flutter/config/locator/locator.dart';
 import 'package:flutter/foundation.dart';
 import 'package:graphql/client.dart';
-import 'package:rider_flutter/config/locator/locator.dart';
 import 'package:rider_flutter/core/blocs/auth_bloc.dart';
 
 class AppSocketLink extends Link {

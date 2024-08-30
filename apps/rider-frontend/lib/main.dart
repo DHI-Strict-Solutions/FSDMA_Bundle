@@ -3,19 +3,18 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_common/core/theme/theme.dart';
-import 'package:flutter_common/l10n/messages.dart' as common_messages;
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:rider_flutter/config/env.dart';
 import 'package:rider_flutter/config/locator/locator.dart';
+import 'package:flutter_common/core/theme/theme.dart';
 import 'package:rider_flutter/config/theme/fonts.dart';
 import 'package:rider_flutter/core/blocs/settings.dart';
 import 'package:rider_flutter/firebase_options.dart';
 import 'package:rider_flutter/l10n/messages.dart';
-
+import 'package:flutter_common/l10n/messages.dart' as common_messages;
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'config/router/app_router.dart';
 import 'config/router/router_observer.dart';
 

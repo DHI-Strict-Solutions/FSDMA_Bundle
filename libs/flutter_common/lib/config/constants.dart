@@ -21,6 +21,6 @@ class Constants {
     address: "1 Infinite Loop, Cupertino, CA 95014",
   );
   static const List<double> walletPresets = [10, 20, 50];
-  static const MapProviderEnum defaultMapProvider = MapProviderEnum.googleMaps;
+  static const MapProviderEnum defaultMapProvider = MapProviderEnum.mapBox;
   static const MeasurementSystem defaultMeasurementSystem = MeasurementSystem.metric;
 }

@@ -39,28 +39,28 @@ class AppTheme {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
-          backgroundColor: WidgetStateProperty.resolveWith(
+          backgroundColor: MaterialStateProperty.resolveWith(
             (states) {
-              if (states.contains(WidgetState.disabled)) {
+              if (states.contains(MaterialState.disabled)) {
                 return lightColorScheme.onSurface.withOpacity(0.12);
-              } else if (states.contains(WidgetState.hovered)) {
+              } else if (states.contains(MaterialState.hovered)) {
                 return ColorPalette.primary50;
-              } else if (states.contains(WidgetState.pressed)) {
+              } else if (states.contains(MaterialState.pressed)) {
                 return ColorPalette.primary30;
               } else {
                 return ColorPalette.primary40;
               }
             },
           ),
-          padding: const WidgetStatePropertyAll(EdgeInsets.symmetric(horizontal: 24, vertical: 20)),
-          foregroundColor: WidgetStateProperty.resolveWith((states) {
-            if (states.contains(WidgetState.disabled)) {
+          padding: const MaterialStatePropertyAll(EdgeInsets.symmetric(horizontal: 24, vertical: 20)),
+          foregroundColor: MaterialStateProperty.resolveWith((states) {
+            if (states.contains(MaterialState.disabled)) {
               return lightColorScheme.onSurface.withOpacity(0.12);
             } else {
               return lightColorScheme.onPrimary;
             }
           }),
-          shape: WidgetStateProperty.all(
+          shape: MaterialStateProperty.all(
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
             ),
@@ -68,9 +68,9 @@ class AppTheme {
         ),
       ),
       checkboxTheme: CheckboxThemeData(
-        fillColor: WidgetStateColor.resolveWith(
+        fillColor: MaterialStateColor.resolveWith(
           (states) {
-            if (states.contains(WidgetState.selected)) {
+            if (states.contains(MaterialState.selected)) {
               return ColorPalette.primary40;
             } else {
               return Colors.transparent;
@@ -85,24 +85,24 @@ class AppTheme {
       segmentedButtonTheme: SegmentedButtonThemeData(
         selectedIcon: const SizedBox.shrink(),
         style: ButtonStyle(
-          side: const WidgetStatePropertyAll(BorderSide(color: ColorPalette.primary95)),
-          shape: WidgetStatePropertyAll(
+          side: const MaterialStatePropertyAll(BorderSide(color: ColorPalette.primary95)),
+          shape: MaterialStatePropertyAll(
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
             ),
           ),
-          textStyle: WidgetStatePropertyAll(localTextTheme.bodyMedium),
-          foregroundColor: WidgetStateColor.resolveWith((states) {
-            if (states.contains(WidgetState.selected)) {
+          textStyle: MaterialStatePropertyAll(localTextTheme.bodyMedium),
+          foregroundColor: MaterialStateColor.resolveWith((states) {
+            if (states.contains(MaterialState.selected)) {
               return ColorPalette.primary30;
             } else {
               return ColorPalette.neutralVariant50;
             }
           }),
-          backgroundColor: WidgetStateColor.resolveWith((states) {
-            if (states.contains(WidgetState.selected)) {
+          backgroundColor: MaterialStateColor.resolveWith((states) {
+            if (states.contains(MaterialState.selected)) {
               return ColorPalette.primary99;
-            } else if (states.contains(WidgetState.hovered)) {
+            } else if (states.contains(MaterialState.hovered)) {
               return ColorPalette.primary99;
             } else {
               return Colors.transparent;
@@ -122,9 +122,9 @@ class AppTheme {
         textStyle: localTextTheme.bodyLarge,
         inputDecorationTheme: inputTheme(fontPrimary, fontSecondary),
         menuStyle: MenuStyle(
-          backgroundColor: const WidgetStatePropertyAll(Color(0xffEEEDF1)),
+          backgroundColor: const MaterialStatePropertyAll(Color(0xffEEEDF1)),
           visualDensity: VisualDensity.compact,
-          shape: WidgetStatePropertyAll(
+          shape: MaterialStatePropertyAll(
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(4),
             ),

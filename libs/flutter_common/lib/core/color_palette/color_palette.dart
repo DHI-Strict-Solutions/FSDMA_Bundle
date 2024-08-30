@@ -48,7 +48,7 @@ class ColorPalette {
   // static const surfaceContainerDark = Color(0xFF1E2022);
   // static const surfaceContainerLowDark = Color(0xFF1A1C1E);
   // static const surfaceContainerLowestDark = Color(0xFF0D0E11);
-  static const primary20 = Color(0xFF0D6A95);
+  static const primary20 = Color(0xFF0E275D);
   static const primary30 = Color(0xFF0946C4);
   static const primary40 = Color(0xFF0253E8);
   static const primary50 = Color(0xFF096EFF);
@@ -58,7 +58,7 @@ class ColorPalette {
   static const primary95 = Color(0xFFE7EEFF);
   static const primary99 = Color(0xFFF4F5FE);
   static const primary94 = Color(0xFFE7EEFF);
-  static const secondary20 = Color(0xFFF2A384);
+  static const secondary20 = Color(0xFF752900);
   static const secondary30 = Color(0xFF9A4512);
   static const secondary40 = Color(0xFFC2580C);
   static const secondary50 = Color(0xFFEA740C);
@@ -67,12 +67,12 @@ class ColorPalette {
   static const secondary90 = Color(0xFFFEE2AA);
   static const secondary95 = Color(0xFFFFF2D5);
   static const secondary99 = Color(0xFFFFF9ED);
-  static const tertiary40 = Color(0xFF3AC5F2);
+  static const tertiary40 = Color(0xFF00A392);
   static const tertiary60 = Color(0xFF00E2C5);
   static const tertiary80 = Color(0xFF3AFFEC);
   static const tertiary95 = Color(0xFFC0FFF8);
   static const tertiary99 = Color(0xFFEDFFFC);
-  static const error30 = Color(0xFFF06A6A);
+  static const error30 = Color(0xFF93000A);
   static const error40 = Color(0xFFBA1A1A);
   static const error50 = Color(0xFFDE3730);
   static const error60 = Color(0xFFFF5449);
@@ -99,7 +99,7 @@ class ColorPalette {
   static const neutralVariant90 = Color(0xFFDFE2EB);
   static const neutralVariant95 = Color(0xFFEBEDF4);
   static const neutralVariant99 = Color(0xFFFDFCFF);
-  static const semanticgreen30 = Color(0xFF04A24C);
+  static const semanticgreen30 = Color(0xFF324F00);
   static const semanticgreen50 = Color(0xFF578400);
   static const semanticgreen60 = Color(0xFF6C9F12);
   static const semanticgreen70 = Color(0xFF85BB31);

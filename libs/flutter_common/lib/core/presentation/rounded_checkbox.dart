@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_common/core/extensions/extensions.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:flutter_common/core/color_palette/color_palette.dart';
 
 class RoundedCheckbox extends StatelessWidget {
   final bool isSelected;
